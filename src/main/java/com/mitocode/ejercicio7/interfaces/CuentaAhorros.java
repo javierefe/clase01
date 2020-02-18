@@ -11,8 +11,6 @@ public class CuentaAhorros  implements ICuenta {
 		super();
 		
 	}
-
-
 	public CuentaAhorros(String numeroCuenta, String titular, double saldo, double tasaInteres) {
 		super();
 		this.numeroCuenta = numeroCuenta;
@@ -21,7 +19,6 @@ public class CuentaAhorros  implements ICuenta {
 		this.tasaInteres = tasaInteres;
 	}
 
-	
 	public String getNumeroCuenta() {
 		return numeroCuenta;
 	}
