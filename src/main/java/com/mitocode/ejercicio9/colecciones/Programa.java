@@ -7,5 +7,7 @@ public class Programa {
 		lista[0] = 5;//unboxing
 		
 		int valor = lista[0];
+		
+		System.out.println(valor == lista[0]);
 	}
 }
